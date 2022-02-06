@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Video
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Video</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <img src="https://dnndave.com{{video.image}}" />
+    <ion-card-header>
+      <ion-card-subtitle>{{video.date}}</ion-card-subtitle>
+      <ion-card-title>{{video.title}}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content [innerHtml]="video.showNotes">
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

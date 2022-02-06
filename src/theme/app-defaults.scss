@@ -1,0 +1,8 @@
+.card-content-ios p, .card-content-md p {
+    margin-bottom: 20px;
+}
+
+.card-content-ios a, .card-content-md a {
+    background-color: transparent;
+    color: var(--ion-color-light-shade, #d7d8da);
+}

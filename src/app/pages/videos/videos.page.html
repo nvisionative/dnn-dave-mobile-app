@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Videos
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Videos</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-list *ngFor="let video of videos.videos" (click)="videoDetail(video.id)">
+    <ion-card>
+      <img src="https://dnndave.com{{video.image}}" />
+      <ion-card-header>
+        <ion-card-subtitle>{{video.date}}</ion-card-subtitle>
+        <ion-card-title>{{video.title}}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        {{video.summary}}
+      </ion-card-content>
+    </ion-card>
+  </ion-list>
+
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "dnn-dave",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
