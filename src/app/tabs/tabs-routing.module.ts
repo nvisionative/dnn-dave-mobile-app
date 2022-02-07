@@ -20,8 +20,8 @@ const routes: Routes = [
         loadChildren: () => import('../pages/videos/video/video.module').then(m => m.VideoPageModule)
       },
       {
-        path: 'info',
-        loadChildren: () => import('../pages/info/info.module').then(m => m.InfoPageModule)
+        path: 'resources',
+        loadChildren: () => import('../pages/resources/resources.module').then(m => m.ResourcesPageModule)
       },
       {
         path: '',

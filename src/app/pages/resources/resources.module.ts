@@ -3,17 +3,17 @@ import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { InfoPage } from './info.page';
+import { ResourcesPage } from './resources.page';
 
-import { InfoPageRoutingModule } from './info-routing.module';
+import { ResourcesPageRoutingModule } from './resources-routing.module';
 
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
     FormsModule,
-    InfoPageRoutingModule
+    ResourcesPageRoutingModule
   ],
-  declarations: [InfoPage]
+  declarations: [ResourcesPage]
 })
-export class InfoPageModule {}
+export class ResourcesPageModule {}
