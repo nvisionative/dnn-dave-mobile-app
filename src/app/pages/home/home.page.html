@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      HOME
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">HOME</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <img class="ion-padding" src="../../../assets/dnnDaveLogo-overDnnLogo.png" />
+    <ion-card-header>
+      <ion-card-subtitle>Mobile App</ion-card-subtitle>
+      <ion-card-title>DNN Dave</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-text>Hello, hello! DNN Dave here. I really hope you find this mobile app useful.</ion-text>
+      <ion-button expand="block" fill="solid" color="danger" class="ion-margin-top" routerLink="/tabs/videos">
+        <ion-label>Videos</ion-label>
+      </ion-button>
+      <ion-button expand="block" fill="solid" color="danger" class="ion-margin-top" routerLink="/tabs/info">
+        <ion-label>Info</ion-label>
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list class="ion-padding">
+  </ion-list>
+
+</ion-content>
