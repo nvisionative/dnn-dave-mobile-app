@@ -64,4 +64,8 @@ export class VideoPage {
     this.router.navigateByUrl('/tabs/videos');
   }
 
+  playVideo(youTubeId: string) {
+    window.open(`https://www.youtu.be/${youTubeId}`, '_system');
+  }
+
 }

@@ -25,5 +25,11 @@
     <ion-card-content [innerHtml]="video.showNotes">
     </ion-card-content>
   </ion-card>
+  
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button color="danger" href="https://youtu.be/{{video.youTubeId}}" target="_blank">
+      <ion-icon name="play"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
 
 </ion-content>
