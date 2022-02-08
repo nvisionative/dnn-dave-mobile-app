@@ -60,4 +60,8 @@ export class VideoPage {
     });
   }
 
+  goBack() {
+    this.router.navigateByUrl('/tabs/videos');
+  }
+
 }
